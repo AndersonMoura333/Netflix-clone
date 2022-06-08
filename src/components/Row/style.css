@@ -1,0 +1,41 @@
+.row-conteiner{
+    margin-left: 20px;
+    color: white;
+
+}
+
+.row-header{
+    color: white;
+    margin-left: 20px;
+}
+
+.row-cards{
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.row-cards::-webkit-scrollbar{
+    display:none;
+   
+}
+
+.movie-card{
+    object-fit: contain;
+    width: 100%;
+    max-height: 200px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    transition: transform 450ms;
+}
+.movie-card:hover{
+    transform: scale(1.2);
+}
+.movie-card-large{
+    object-fit: contain;
+    width: 100%;
+    max-height: 300px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    transition: transform 450ms;
+}
